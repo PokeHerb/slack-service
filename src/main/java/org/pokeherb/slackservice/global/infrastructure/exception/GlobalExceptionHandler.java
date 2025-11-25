@@ -1,9 +1,9 @@
-package org.pokeherb.hubservice.global.infrastructure.exception;
+package org.pokeherb.slackservice.global.infrastructure.exception;
 
 import lombok.extern.slf4j.Slf4j;
-import org.pokeherb.hubservice.global.infrastructure.error.BaseErrorCode;
-import org.pokeherb.hubservice.global.infrastructure.CustomResponse;
-import org.pokeherb.hubservice.global.infrastructure.error.GeneralErrorCode;
+import org.pokeherb.slackservice.global.infrastructure.error.BaseErrorCode;
+import org.pokeherb.slackservice.global.infrastructure.CustomResponse;
+import org.pokeherb.slackservice.global.infrastructure.error.GeneralErrorCode;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;

@@ -1,4 +1,4 @@
-package org.pokeherb.hubservice.global.infrastructure.error;
+package org.pokeherb.slackservice.global.infrastructure.error;
 
 
 
