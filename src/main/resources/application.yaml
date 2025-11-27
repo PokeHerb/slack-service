@@ -12,6 +12,11 @@ spring:
         enabled: true
         service-id: config-server
 
+  ai:
+    vertex.ai.gemini:
+      projectId: gen-lang-client-0988494419
+      location: us-west1
+
 
 eureka:
   instance:
@@ -23,3 +28,8 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://35.216.57.113:3150/eureka/
+
+logging:
+  level:
+    org.hibernate.type: trace
+    org.hibernate.orm.jdbc.bind: trace
